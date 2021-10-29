@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    background-color: #E5E5E5;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+header {
+    background-color: black;
+    height:71px;
+    max-width: 1380px;
+    width: 100%;
+}
+
+.header-container {
+    max-width: 1380px;
+    height: 71px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header-logo a {
+    color:white;
+    float: left;
+    margin-top:-20px;
+    width: 350px;
+}
+
+.header-logo img {
+    color:white;
+    float: left;
+    margin-top:20px;
+    width: 70px;
+    height: 70px;
+    margin-left:108px ;
+    font-family: "Source Serif Pro";
+}
+
+.header-logo h1 {
+    color: white;
+    padding: 13px 0;
+    margin: 0;
+    font-family: "Source Serif Pro";
+    margin-top:24px;
+}
+
+.header-menu {
+    margin-top: 4px;
+    margin-left:-400px;
+    margin-right: 160px;
+    font-family: "Nirmala UI";
+}
+
+.header-menu ul {
+    display: flex;
+    align-content: center;
+    font-family: "Nirmala UI";
+}
+
+.header-menu a {
+    color: white;
+    margin: 0 20px;
+    padding: 5px 0;
+    transition: 0.7s all;
+    font-family: "Nirmala UI";
+}
+
+.header-menu a:hover {
+    background-color: #A89191;
+}
+
+.header-menu .apply {
+    color: black;
+    background-color: #C4C4C4;
+    padding: 7px 5px;
+    border-radius: 15px;
+    margin: 0 15px;
+}
+
+.active {
+    background-color: #A89191;
+} 
+
+button { 
+    font-size: 25px;
+    font-family: sans-serif;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    
+}
+main{
+    height: 1900px;
+}
+.main1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main2 {
+    margin-left: 215px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    background-color: black;
+    height:71px;
+    margin-top: 1000px;
+    
+}
+.footer-left img{
+    margin-left:70px;
+    margin-top:12px;
+ 
+}
+.footer-left p{
+    color: white;
+    margin-left: 150px;
+    margin-top:-41px;
+    font-size: 20px;
+}
+.footer-facebook{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1053px;
+    top: 3132px;
+    margin-top: 45px;
+}
+.footer-instagram{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1150px;
+    top: 3132px;
+    margin-top: 45px;
+}
+.footer-twitter{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1250px;
+    top: 3132px;
+    margin-top: 45px;
+}

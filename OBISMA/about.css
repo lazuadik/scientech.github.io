@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    background-color: #E5E5E5;
+    font-family: "Nirmala UI";
+}
+.header{
+    background-color: black;
+    height:71px;
+    max-width: 1380px;
+    width: 100%;
+}
+.menubar a{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    color: white;
+    margin:20px;
+    margin-top:25px;
+    font-family: "Nirmala UI";
+    max-width: 300px;
+}
+.menubar a {
+    font-family: "Nirmala UI";
+    color: white;
+    margin-top: 15px ;
+    padding: 5px 0;
+    transition: 0.7s all;
+}
+
+.menubar a:hover {
+    background-color: #A89191;
+}
+
+.menubar .apply {
+    color: black;
+    background-color: #C4C4C4;
+    padding: 7px 5px;
+    border-radius: 15px;
+    margin: 0 15px;
+    margin-top: 15px;
+}
+.menubar{
+    margin-left: 800px;
+}
+
+.logo{
+    float: left;
+    margin-left:108px;
+    margin-top: 20px;
+    color:white;
+}
+.logo a{
+    color:white;
+    float: left;
+    margin-top:-20px;
+}
+.logo h1{
+    color: white;
+    margin-top:0px;
+    float: left;
+    font-family: "Source Serif Pro";
+}
+main{
+    height: 2947px;
+}
+.logogede img{
+    align-items: center;
+    margin-left: 150px;
+}
+.logogede h2{
+    text-align: center;
+    font-size: 40px;
+}
+.penjelasanobisma p{
+    position: absolute;
+    width: 1030px;
+    height: 426px;
+    left: 180px;
+    top: 730px;
+    font-family: "Nirmala UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
+.organizers h1{
+    position: absolute;
+    width: 250px;
+    height: 51px;
+    left: 595px;
+    top: 1380px;
+    font-family: "Nirmala UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
+.ketua img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 540px;
+    top: 1480px;
+}
+.ketua p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 563px;
+    top: 1720px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+.wakil1 img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 291px;
+    top: 1850px;
+}
+.wakil1 p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 306px;
+    top: 2090px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+.wakil2 img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 812px;
+    top: 1850px;
+}
+.wakil2 p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 828px;
+    top: 2090px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+.sekretaris1 img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 291px;
+    top: 2220px;
+}
+.sekretaris1 p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 306px;
+    top: 2460px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+.sekretaris2 img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 812px;
+    top: 2220px;
+}
+.sekretaris2 p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 828px;
+    top: 2460px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+.bendahara1 img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 291px;
+    top: 2590px;
+}
+.bendahara1 p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 306px;
+    top: 2830px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+.bendahara2 img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 812px;
+    top: 2590px;
+}
+.bendahara2 p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 828px;
+    top: 2830px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+.kurikulum img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 127px;
+    top: 2960px;
+}
+.kurikulum p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 143px;
+    top: 3200px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+}
+.event img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 547px;
+    top: 2960px;
+}
+.event p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 563px;
+    top: 3200px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+}
+.hr img{
+    position: absolute;
+    width: 346px;
+    height: 220px;
+    left: 969px;
+    top: 2960px;
+}
+.hr p{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+    left: 985px;
+    top: 3200px;
+
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    height:71px;
+    margin-top:2700px;
+}
+.footer-left img{
+    margin-left:70px;
+    margin-top:12px;
+}
+.footer-left p{
+    color: white;
+    margin-left: 150px;
+    margin-top:-41px;
+    font-size: 20px;
+}
+.footer-right{
+    margin-top:200px;
+}
+.footer-facebook{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1053px;
+    top: 3450px;
+}
+.footer-instagram{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1150px;
+    top: 3450px;
+}
+.footer-twitter{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1250px;
+    top: 3450px;
+}

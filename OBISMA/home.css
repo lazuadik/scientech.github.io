@@ -1,0 +1,558 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    background-color: #E5E5E5;
+    font-family: "Nirmala UI";
+}
+.header{
+    background-color: black;
+    height:71px;
+    max-width: 1380px;
+    width: 100%;
+}
+.menubar a{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    color: white;
+    margin:20px;
+    margin-top:25px;
+    font-family: "Nirmala UI";
+    max-width: 300px;
+}
+.menubar a {
+    font-family: "Nirmala UI";
+    color: white;
+    margin-top: 15px ;
+    padding: 5px 0;
+    transition: 0.7s all;
+}
+
+.menubar a:hover {
+    background-color: #A89191;
+}
+
+.menubar .apply {
+    color: black;
+    background-color: #C4C4C4;
+    padding: 7px 5px;
+    border-radius: 15px;
+    margin: 0 15px;
+    margin-top: 15px;
+}
+.menubar{
+    margin-left: 800px;
+}
+.logo{
+    float: left;
+    margin-left:108px;
+    margin-top: 20px;
+    color:white;
+}
+.logo a{
+    color:white;
+    float: left;
+    margin-top:-20px;
+}
+.logo h1{
+    color: white;
+    margin-top:0px;
+    float: left;
+    font-family: "Source Serif Pro";
+}
+.penjelasan h1{
+    color: white;
+    font-family: "Source Serif Pro";
+    font-size:60px;
+    margin:60px;
+    margin-top: 0px;
+    margin-left: 500px;
+    float: left;
+}
+.main{
+    height: 2950px;
+}
+.top-wrapper img{
+    margin-top: -200px;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+}
+.penjelasan p{
+    color: white;
+    font-family: "Source Serif Pro";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25.06px;
+    text-align: justify;
+    margin:60px;
+    margin-top: -40px;
+    margin-left: 500px;
+    float: left;
+    max-width: 549px;
+    max-height: 109px;
+}
+.pengertianobisma{
+    margin-top:800px;
+    padding-top:500px;
+    margin:100px;
+    z-index: 1;
+}
+.pengertianobisma h1{
+    margin-left: 600px;
+    margin-top: 100px;
+    position: absolute;
+    width: 226px;
+    font-family: "Source Serif Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 75px;
+}
+.pengertianobisma p{
+    text-align: left;
+    max-width: 796px;
+    margin-left: 400px;
+    font-size: 30px;
+    font-family: "Nirmala UI";
+    font-weight: 200;
+    line-height: 35.16px;
+    font-style: normal;
+    margin-top: -370px;
+    position: absolute;
+}
+.pengertianobisma img{
+    margin-top:200px;
+}
+hr{
+    float: right;
+}
+.ket1 {
+    position: absolute;
+    width: 160px;
+    height: 81px;
+    left: 114px;
+    top: 1326px;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.content-wrapper {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.content1 img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 189px;
+    top: 1512px;
+}
+.content1 h2{
+    position: absolute;
+    width: 206px;
+    height: 52px;
+    left: 197px;
+    top: 1763px;
+
+    font-family: "Nirmala UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+}
+.content2 img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 610px;
+    top: 1517px;
+
+}
+.content2 h2{
+    position: absolute;
+    width: 158px;
+    height: 52px;
+    left: 641px;
+    top: 1763px;
+
+    font-family: "Nirmala UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+}
+.content3 img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 1016px;
+    top: 1512px;
+}
+.content3 h2{
+    position: absolute;
+    width: 288px;
+    height: 52px;
+    left: 989px;
+    top: 1763px;
+
+    font-family: "Nirmala UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+}
+.garislurus hr{
+    float: left;
+    margin-top: 600px;
+}
+.ket2 {
+    position: absolute;
+    width: 162px;
+    height: 58px;
+    left: 1165px;
+    top: 1931px;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: right;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+.grupalumni h1{
+    position: absolute;
+    width: 423px;
+    height: 69px;
+    left: 517px;
+    top: 1989px;
+    margin-top:30px ;
+    font-family: "Source Serif Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 69px;
+}
+.orang1 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 100px;
+    top: 2200px;
+    background-color: white;
+}
+
+.orang1 p{
+    position: absolute;
+    width: 285px;
+    height: 106px;
+    left: 10px;
+    top: 70px;
+    color:black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.orang1 img{
+    position: absolute;
+    width: 105px;
+    height: 100px;
+    left: 10px;
+    top: 210px;
+    border-radius: 222px;
+}
+.profilorang1 h3{
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 120px;
+    top: 240px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.profilorang1 p{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 120px;
+    top: 270px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 8px;
+}
+.profilorang1 img{
+    margin-top:-190px;
+    margin-left:250px;
+    width: 45px;
+    height: 40px;
+}
+.orang2 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 554.5px;
+    top: 2200px;
+    background-color: white;
+}
+.orang2 p{
+    position: absolute;
+    width: 285px;
+    height: 106px;
+    left: 10px;
+    top: 70px;
+    color:black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.orang2 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    top: 210px;
+    border-radius: 222px;
+}
+.profilorang2 img{
+    margin-top:-190px;
+    margin-left:250px;
+    width: 45px;
+    height: 40px;
+}
+.profilorang2 h3{
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 120px;
+    top: 240px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.profilorang2 p{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 120px;
+    top: 270px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 8px;
+}
+.orang3 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 1009.5px;
+    top: 2200px;
+    background-color: white;
+}
+.orang3 p{
+    position: absolute;
+    width: 285px;
+    height: 106px;
+    left: 10px;
+    top: 70px;
+    color:black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.orang3 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    top: 210px;
+    border-radius: 222px;
+}
+.profilorang3 img{
+    margin-top:-190px;
+    margin-left:250px;        
+    width: 45px;
+    height: 40px;
+}
+.profilorang3 h3{
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 120px;
+    top: 240px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.profilorang3 p{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 120px;
+    top: 270px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 8px;
+}
+.garislurus3 hr{
+    float: right;
+    margin-top:700px ;
+}
+.ket3{
+    position: absolute;
+    width: 162px;
+    height: 58px;
+    left:260px;
+    top: 2630px;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+.artikel1{
+    position: absolute;
+    width: 578px;
+    height: 266px;
+    left: 160px;
+    top: 2780px;
+    background-color: white;
+}
+.isiartikel1 h2{
+    position: absolute;
+    width: 427px;
+    height: 78px;
+    left: 50px;
+    top: 30px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+}
+.isiartikel1 p{
+    position: absolute;
+    width: 493px;
+    height: 52px;
+    left: 50px;
+    top: 150px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+}
+.artikel2{
+    position: absolute;
+    width: 578px;
+    height: 266px;
+    left: 754px;
+    top: 2780px;
+    background-color: white;
+}
+.isiartikel2 h2{
+    position: absolute;
+    width: 427px;
+    height: 78px;
+    left: 50px;
+    top: 30px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+}
+.isiartikel2 p{
+    position: absolute;
+    width: 493px;
+    height: 52px;
+    left: 50px;
+    top: 150px;
+    color: black;
+    font-family: "Nirmala UI";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+}
+.footer{
+    background-color: black;
+    height:71px;
+}
+.footer-left img{
+    margin-left:70px;
+    margin-top:12px;
+}
+.footer-left p{
+    color: white;
+    margin-left: 150px;
+    margin-top:-41px;
+    font-size: 20px;
+}
+.footer-facebook{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1053px;
+    top: 3132px;
+}
+.footer-instagram{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1150px;
+    top: 3132px;
+}
+.footer-twitter{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1250px;
+    top: 3132px;
+}
+.readmore p {
+    text-decoration: none;
+    color: black;
+    margin-top:-130px;
+    margin-left: 1250px;
+}
